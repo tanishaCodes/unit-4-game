@@ -11,6 +11,6 @@ You win the game by matching your total score to random number. You lose the gam
 
 Each time when the game starts, the game will change the values of eaach crystal.
 
-Good Luck!
+Good Luck! https://tanishahowell.github.io/unit-4-game/
 
 ![Image of Crystal Collectors Game](assets\images\crystalCollector.png)
