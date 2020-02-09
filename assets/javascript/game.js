@@ -98,6 +98,8 @@ lossCount++;
 //Change Loss Count HTML
 $("#lossCount").html(lossCount);
 
+//Restart the game
+startGame();
 
 } else if (currentScore == targetScore) {
     alert("Congratulations! You won!");
@@ -105,8 +107,6 @@ $("#lossCount").html(lossCount);
 
 //Add to the Win Counter
 winCount++;
-//Restart the game
-startGame();
 
 //Change Win Count HTML
 $("#winCount").html(winCount);
