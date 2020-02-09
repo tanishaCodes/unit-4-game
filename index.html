@@ -6,37 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Crystal Collector!</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Crystal Collector!</h1>
-    <br>
-    <h2>Here's How to Play:</h2>
-    <div id="jumbotron">
+    <div class="jumbotron" style="background-color: indigo; color:lavenderblush">
+    <h1 class="text-center">Crystal Collector</h1>
+    </div>
+
+    <div class="text-center">
+    <h2>How to Play:</h2>
+    
         <p>You will be given a random number at the start of the game.</p>
         <p>Click the crystals to add points to your total score. Points are hidden until clicked!</p>
         <p>You win the game by matching your total score to random number. You lose the game if your total score goes abve the random number.</p>
         <p>Each time when the game starts, the game will change the values of eaach crystal.</p>
     </div>
 
-    <h2 id="randomNumber">Match this number: 0</h2
-        >
+    <div>
+        <h2 class="text-center">Match this number:</h2>
+    </div>
+    <div>
+        <h3 class="text-center" id="targetScore"></h3>
+    </div>
+        
+    <div class="text-center">
+        <button id="green" value="0"><img src = "assets\images\crystal1.jpg"   width="70px" height="100px"></button>
+        <button id="multicolored" value="0"><img src = "assets\images\crystal2.jpg"   width="70px" height="100px"></button>
+        <button id="purple" value="0"><img src = "assets\images\crystal3.jpg" width="70px" height="100px"></button>
+        <button id="blue" value="0"><img src = "assets\images\crystal4.jpg"  width="70px" height="100px"></button>
+    </div>
+
+    <br>
+    <div>
+        <h2 class="text-center">Your Score:</h2>
+    </div>
+    <div>
+        <h3 class="text-center" id="yourScore"></h3>
+    </div>
+    <br>
 
     <div>
-        <button class="btn-1"><img src = "assets\images\crystal1.jpg"  id="crystal1" width="100px" height="100px"></button>
-        <button class="btn-2"><img src = "assets\images\crystal2.jpg"  id="crystal2" width="100px" height="100px"></button>
-        <button class="btn-3"><img src = "assets\images\crystal3.jpg" id="crystal3" width="100px" height="100px"></button>
-        <button class="btn-4"><img src = "assets\images\crystal4.jpg" id="crystal4" width="100px" height="100px"></button>
+        <h3 class="text-center">Wins:</h3>
+        <h3 class="text-center" id="winCount">0</h3>
     </div>
-    
+
     <div>
-        <h2 id="total-score">Your score is: </h2>
+        <h3 class="text-center">Loses:</h3>
+        <h3 class="text-center" id="lossCount">0</h3>
     </div>
 
-    <div class="col-md-6">
-        <h3>Wins: </h3>
-        <h3>Loses: </h3>
-    </div>
+   <!-- JQUERY --> 
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src= "assets\javascript\game.js"></script>
+   <!-- JAVASCRIPT -->
+   <script src="assests\javascript\game.js"></script>
 </body>
 </html>
