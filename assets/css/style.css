@@ -1,3 +1,11 @@
+ #green,
+ #multicolored,
+ #purple,
+ #blue {
+    width: 70px;
+    height: 100px;
+ }
+
  .clearfix:after {
         clear: both;
         content: " ";
