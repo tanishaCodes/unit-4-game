@@ -13,4 +13,4 @@ Each time when the game starts, the game will change the values of eaach crystal
 
 Good Luck! https://tanishacodes.github.io/unit-4-game/
 
-<img src="assets\images\crystal-collector-image.jpg" alt="Screenshot of Crystal Collector Game>
+<img src="assets\images\crystal-collector-image.jpg" alt="Screenshot of Crystal Collector Game" width="700">
